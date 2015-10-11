@@ -1,0 +1,8 @@
+language: java
+jdk:
+- oraclejdk8
+script: sbt play dist
+notifications:
+  email:
+    recipients:
+    - heijbel@gmail.com
